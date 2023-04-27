@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package abdi080323;
+
+>>>>>>> 41e555c (latihan)
 import javax.swing.JOptionPane;
 
 public class GetInputDialog{

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package abdi080323;
+
+>>>>>>> 41e555c (latihan)
 public class Latihan2{
     public static void main(String[] args){
         int number1 = 10;

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package abdi080323;
+
+>>>>>>> 41e555c (latihan)
 import java.io.BufferedReader;
 import java.io.inputStreamReader;
 import java.io.IOException;
