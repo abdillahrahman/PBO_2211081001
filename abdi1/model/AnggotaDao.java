@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abdi270423buku.model;
+package abdi1.model;
 import java.util.*;
 /**
  *
  * @author LABP1KOMP
  */
-public interface BukuDao {
-    void save(Buku buku);
-    void update(int index, Buku buku);
+public interface AnggotaDao {
+    void save(Anggota anggota);
+    void update(int index,Anggota anggota);
     void delete(int index);
-    Buku getBuku(int index);
-    public List<Buku> getAllBuku();
+    Anggota getAnggota(int index);
+    public List<Anggota> getAllAnggota();
 }
