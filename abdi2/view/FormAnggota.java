@@ -78,6 +78,11 @@ public class FormAnggota extends javax.swing.JFrame {
         txtNobp.setBounds(80, 20, 330, 22);
 
         txtNama.setText("jTextField2");
+        txtNama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNamaActionPerformed(evt);
+            }
+        });
         getContentPane().add(txtNama);
         txtNama.setBounds(80, 40, 330, 22);
 
@@ -185,6 +190,10 @@ public class FormAnggota extends javax.swing.JFrame {
         controller.bersihForm();
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelActionPerformed
+
+    private void txtNamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNamaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNamaActionPerformed
 
     /**
      * @param args the command line arguments
