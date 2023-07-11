@@ -39,5 +39,9 @@ public class Anggota {
     public String getAlamat(){
         return alamat;
     }
+
+    public void setJenisKelamin(String l) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

@@ -17,6 +17,6 @@ public interface TagihanDao {
     void save(Tagihan tagihan);
     void update(int index, Tagihan tagihan);
     void delete(int index);
-    Anggota getTagihan(int index);
+    Tagihan getTagihan(int index);
     List<Tagihan> getAll();
 }

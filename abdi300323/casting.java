@@ -2,6 +2,6 @@ package abdi300323;
 
 public class contohcasting {
     char valChar = 'A';
-    int valInt = valChar;
+    int valInt = varChar;
     System.out.print( valInt );
 }

@@ -22,7 +22,7 @@ public class AnggotaController {
     
     public AnggotaController(FormAnggota formAnggota){
         this.formAnggota = formAnggota;
-        anggotaDao = new AnggotaDaoImpl();
+        anggotaDao = new AnggotaDaoImpl(connection);
     }
     public void bersihForm(){
         formAnggota.gettxtKodeAnggota().setText("");

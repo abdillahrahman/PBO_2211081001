@@ -15,4 +15,6 @@ public interface AnggotaDao {
     void delete(int index);
     Anggota getAnggota(int index);
     public List<Anggota> getAllAnggota();
+
+    public void insert(abdi2.model.Anggota anggota);
 }

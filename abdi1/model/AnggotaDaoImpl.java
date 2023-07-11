@@ -12,7 +12,7 @@ import java.util.*;
 public class AnggotaDaoImpl implements AnggotaDao {
     
     List<Anggota> data = new ArrayList();
-    public AnggotaDaoImpl(){
+    public AnggotaDaoImpl(Connection connection){
         data.add(new Anggota("98111","akmal","lolong","L"));    
     }
     public void save(Anggota anggota){

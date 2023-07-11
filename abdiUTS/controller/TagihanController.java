@@ -32,7 +32,7 @@ public class TagihanController {
     }
     
     public void saveTagihan(){
-        tagihan = new tagihan();
+        tagihan = new Tagihan();
         tagihan.setKode(formTagihan.getTxtKode().getText());
         tagihan.setNama(formTagihan.getTxtNama().getText());
         tagihan.setMeter1(formTagihan.getTxtMeter1().getText());
@@ -80,12 +80,12 @@ public class TagihanController {
         java.util.List<Tagihan> list = tagihanDao.getAll();
         for(Tagihan tagihan : list){
             Object[] data = {
-                anggota.getNobp(),
-                anggota.getNama(),
-                anggota.getMeter1(),
-                anggota.getMeter2(),
-                anggota.getTarif(),
-                anggota.getDiskon(),
+                tagihan.getKode(),
+                tagihan.getNama(),
+                tagihan.getMeter1(),
+                tagihan.getMeter2(),
+                tagihan.getTarif(),
+                tagihan.getDiskon()
             };
             tabelModel.addRow(data);
         }

@@ -18,7 +18,7 @@ public class Tagihan {
     
             
     
-    public Tagihan{}
+    public Tagihan(){}
     
     public Tagihan(String kode, String nama, String meter1, String meter2, String tarif, String diskon){
         this.kode = kode;
@@ -28,44 +28,52 @@ public class Tagihan {
         this.tarif = tarif;
         this.diskon = diskon;
     }
-    
-    public void setKode(String kode){
-        this.kode = kode;
-    }
-    public void setNama(String nama){
-        this.nama = nama;
-    }
-    public void setMeter1(String meter1){
-        this.meter1 = meter1;
-    }
-    public void setMeter2(String meter2)
-        this.meter2 = meter2;
-    }
-    public void setTarif(String tarif)
-        this.tarif = tarif;
-    }
-    public void setDiskon(String diskon)
-        this.diskon = diskon;
-    }
 
-
-
-    public String getKode(){
+    public String getKode() {
         return kode;
     }
-    public String getNama(){
+
+    public void setKode(String kode) {
+        this.kode = kode;
+    }
+
+    public String getNama() {
         return nama;
     }
-    public String getMeter1(){
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getMeter1() {
         return meter1;
     }
-    public String getMeter2(){
+
+    public void setMeter1(String meter1) {
+        this.meter1 = meter1;
+    }
+
+    public String getMeter2() {
         return meter2;
     }
-    public String getTarif(){
+
+    public void setMeter2(String meter2) {
+        this.meter2 = meter2;
+    }
+
+    public String getTarif() {
         return tarif;
     }
-    public String getDiskon(){
+
+    public void setTarif(String tarif) {
+        this.tarif = tarif;
+    }
+
+    public String getDiskon() {
         return diskon;
+    }
+
+    public void setDiskon(String diskon) {
+        this.diskon = diskon;
     }
 }
